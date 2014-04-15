@@ -81,10 +81,12 @@ h2 {
 
 h4 {
 	margin: 5px auto 5px 15px;
+	display: none;
 }
 
 p {
 	margin: 5px 15px 20px 80px;
 	font-size: 17px;
 	color: #26EDED;
+	display: none;
 }
