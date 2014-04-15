@@ -1,23 +1,3 @@
-/*
-$("div div").hover(function() {
-	var row = $(this).parent().index();
-	var col = $(this).index();
-	$(this).css("background-color", "black"); 
-	console.log(row); 
-	console.log(col);
-	console.log('content above: ' + $(this).parent().parent().innerHTML)
-}, 
-
-	function() {$(this).css("background-color", "#26EDED"); 
-	console.log(this.innerHTML)
-});
-
-
-//change the content of a cell given row 2, col 11
-$('.container:nth-of-type(2) :nth-child(11)').html('V')
-
-*/
-
 $("div div").hover(function() {
 	if ($(this).html() != '') {
 		//index function returns zero-based position
@@ -41,10 +21,6 @@ function MoveText(row,col) {
 	var rightbox = '.container:nth-of-type('+(row+1)+') :nth-child('+(col+2)+')';
 	var belowbox = '.container:nth-of-type('+(row+2)+') :nth-child('+(col+1)+')';
 	var leftbox = '.container:nth-of-type('+(row+1)+') :nth-child('+(col)+')';
-
-	//for testing 
-	console.log(row);
-	console.log(col);
 
 	//if you are an edge box then invalidate moving/checking outside the box
 	if (row === 0) { //if in top row
@@ -96,9 +72,6 @@ function MoveText(row,col) {
 			rand = GetRandom(min,max);
 		}
 
-		console.log('rand: ' + rand);
-		console.log('thisbox: ' + thisbox);
-
 		//move the letter to the random box
 		if (rand===0) { //move the letter up
 			$(abovebox).html($(thisbox).html());
@@ -120,11 +93,13 @@ function MoveText(row,col) {
 	}
 }
 
+//toggle appearance of faq questions
 $("h2").on("click", function (event) {
 	event.preventDefault();
 	$("h4").toggle(400);
 })
 
+//toggle appearance of faq answers
 $("h4").on("click", function (event) {
 	event.preventDefault();
 	$(this).parent().next().toggle(400, function () {});
