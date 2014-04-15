@@ -1,0 +1,89 @@
+body {
+	background-color: black;
+	text-align: center;
+	line-height: 1;
+	color: #DB30D0;
+	font-weight: bold;
+	font-family: sans-serif;
+}
+
+.container div {
+	background-color: #26EDED;
+	height: 36px;
+	width: 36px;
+	text-align: center;
+	font-size: 36px;
+	position: relative;
+	display: inline-block;
+	vertical-align: bottom;
+	margin: 3px 1px;
+} 
+
+.container {
+	background-color: #DB30D0;
+	width: 467px;
+	margin: auto auto;
+}
+
+.topRow {
+	margin: 100px auto 0 auto;
+	border-radius: 6px 0 0 0;
+}
+
+.bottomRow {
+	border-radius: 0 0 6px 0;
+}
+
+.topRow div {
+	margin: 6px 1px 3px 1px;
+}
+
+.bottomRow div {
+	margin: 3px 1px 6px 1px;
+}
+
+.linkbar {
+	margin: 10px auto;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:link {
+	color: #D830D0;
+}
+
+a:visited {
+	color: #D830D0;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+h2 {
+	margin: 10px auto 5px auto;
+}
+
+.faq {
+	border: 3px solid;
+}
+
+.faq div {
+	text-align: left;
+	padding: 5px 5px;
+	margin: auto;
+	max-width: 300px;
+	border: 3px solid;
+}
+
+.faq h2:before, 
+.faq h2:after {
+	content: "";
+	position: absolute;
+	top: 0;
+	height: 5px;
+	width: 600px;
+	border-bottom: 1px solid green;
+}
