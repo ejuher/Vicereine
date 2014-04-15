@@ -80,10 +80,11 @@ h2 {
 }
 
 h4 {
-	margin: 5px auto 5px 5px;
+	margin: 5px auto 5px 15px;
 }
 
 p {
-	margin: 5px 5px 20px 80px;
+	margin: 5px 15px 20px 80px;
 	font-size: 17px;
+	color: #26EDED;
 }
