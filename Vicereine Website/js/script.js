@@ -120,4 +120,12 @@ function MoveText(row,col) {
 	}
 }
 
+$("h2").on("click", function (event) {
+	event.preventDefault();
+	$("h4").toggle(400);
+})
 
+$("h4").on("click", function (event) {
+	event.preventDefault();
+	$(this).parent().next().toggle(400, function () {});
+})
