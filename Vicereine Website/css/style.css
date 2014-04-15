@@ -6,7 +6,7 @@ body {
 	font-family: sans-serif;
 }
 
-.container div, a {
+.container div, .linkbar {
 	font-weight: bold;
 }
 
