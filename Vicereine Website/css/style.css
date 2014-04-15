@@ -3,8 +3,11 @@ body {
 	text-align: center;
 	line-height: 1;
 	color: #DB30D0;
-	font-weight: bold;
 	font-family: sans-serif;
+}
+
+.container div, a {
+	font-weight: bold;
 }
 
 .container div {
@@ -66,18 +69,21 @@ h2 {
 	margin: -12px auto 5px auto;
 	background: black;
 	width: 75px;
+	text-align: center;
 }
 
 .faq {
 	border: 3px solid;
 	width: 500px;
 	margin: auto;
-}
-
-h3 {
 	text-align: left;
 }
 
+h4 {
+	margin: 5px auto 5px 5px;
+}
+
 p {
-	text-align: right;
+	margin: 5px 5px 20px 80px;
+	font-size: 17px;
 }
