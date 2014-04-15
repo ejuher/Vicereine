@@ -43,7 +43,7 @@ body {
 }
 
 .linkbar {
-	margin: 10px auto;
+	margin: 10px auto 20px auto;
 }
 
 a {
@@ -63,32 +63,21 @@ a:hover {
 }
 
 h2 {
-	margin: 10px auto 5px auto;
+	margin: -12px auto 5px auto;
+	background: black;
+	width: 75px;
 }
 
 .faq {
 	border: 3px solid;
-}
-
-.faq div {
-	text-align: left;
-	padding: 5px 5px;
+	width: 500px;
 	margin: auto;
-	max-width: 300px;
-	border: 3px solid;
 }
 
-.faq h2:before, 
-.faq h2:after {
-	content: "";
-	position: absolute;
-	top: 0;
-	height: 5px;
-	width: 600px;
-	border-bottom: 1px solid green;
+h3 {
+	text-align: left;
 }
 
-/*test*/
-/*test again!*/
-/*noisebridge give me knowledge*/
-/*git is goood*/
+p {
+	text-align: right;
+}
