@@ -12,19 +12,20 @@ body {
 
 .container div {
 	background-color: #26EDED;
-	height: 36px;
-	width: 36px;
+	height: 39px;
+	width: 39px;
 	text-align: center;
 	font-size: 36px;
 	position: relative;
 	display: inline-block;
 	vertical-align: bottom;
 	margin: 3px 1px;
+	box-shadow: inset -1px -1px 0 1px black;
 } 
 
 .container {
 	background-color: #DB30D0;
-	width: 467px;
+	width: 500px;
 	margin: auto auto;
 }
 
