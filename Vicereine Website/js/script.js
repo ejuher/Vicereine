@@ -97,6 +97,7 @@ function MoveText(row,col) {
 $("h2").on("click", function (event) {
 	event.preventDefault();
 	$("h4").toggle(400);
+	$("p").hide();
 })
 
 //toggle appearance of faq answers
