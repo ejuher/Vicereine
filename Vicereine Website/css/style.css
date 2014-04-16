@@ -33,11 +33,9 @@ body {
 
 .topRow {
 	margin: 100px auto 0 auto;
-	border-radius: 6px 0 0 0;
 }
 
 .bottomRow {
-	border-radius: 0 0 6px 0;
 }
 
 .topRow div {
@@ -81,7 +79,6 @@ h2 {
 	margin: auto;
 	text-align: left;
 	padding-bottom: 8px;
-	border-radius: 6px 0 6px 0;
 }
 
 h4 {
